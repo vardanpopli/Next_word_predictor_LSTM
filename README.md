@@ -1,4 +1,4 @@
-# Next_word_predictor_LSTM
+# Next_word_predictor_LSTM (Emails)
 This is an natural language processing (NLP) project aimed at predicting the next words in an email sentence given a partial input. Leveraging LSTM (Long Short-Term Memory) neural networks with embeddings, this project assists users in composing emails more efficiently by suggesting probable continuations based on common sentence structures found in email communication. This type of model is useful for applications like autocomplete or text suggestion.
 
 # DataSet
