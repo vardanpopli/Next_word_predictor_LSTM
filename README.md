@@ -11,7 +11,8 @@ Sequence Generation: For each tokenized sentence, sequences of increasing length
 
 Padding: Pre-Padding is applied to ensure all sequences have the same length.
 
-Input-Output Split: Finally, the input sequences (excluding the last word) and corresponding labels (the last word) are separated into x and y respectively. This prepares the data for training the LSTM model, where the goal is to predict the next word in a sequence given the preceding words.
+Input-Output Split: Finally, the input sequences (excluding the last word) and corresponding labels (the last word) are separated into x and y respectively. This prepares the data for training the LSTM model, where the goal is to predict the next word in a sequence given the preceding words.(Multiclass classification)
+
 
 # Architecture
 1. Input Layer: The input layer accepts sequences of words represented as integers. Each word is mapped to an integer index, and the input sequence is of variable length.
