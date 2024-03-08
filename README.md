@@ -2,7 +2,7 @@
 This is an natural language processing (NLP) project aimed at predicting the next words in an email sentence given a partial input. Leveraging LSTM (Long Short-Term Memory) neural networks with embeddings, this project assists users in composing emails more efficiently by suggesting probable continuations based on common sentence structures found in email communication. This type of model is useful for applications like autocomplete or text suggestion.
 
 # DataSet
-The dataset used for training the Email Sentence Predictor consists of a collection of common sentences found in email communication. Each sentence is preprocessed and tokenized to prepare it for training the LSTM model.
+The dataset used for training consists of a collection of common sentences found in email communication. Each sentence is preprocessed and tokenized to prepare it for training the LSTM model.
 
 # Data Preprocessing
 Tokenization: The text data, containing sentences, is split into individual lines. Each line represents a single sentence. These sentences are then tokenized
