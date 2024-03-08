@@ -25,7 +25,7 @@ The output dimensionality of the LSTM layer is set to 336. This means that each 
 
 4. Output Layer:The output layer takes the output of the LSTM layer and produces predictions for the next word in the sequence. Uses a softmax activation function to output a probability distribution over the vocabulary (all possible words).
 
-The model is trained to minimize the categorical cross-entropy loss between the predicted probability distribution and the actual next word.
+The model is trained to minimize the categorical cross-entropy loss.
 
 
 
